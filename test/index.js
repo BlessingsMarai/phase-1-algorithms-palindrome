@@ -19,3 +19,12 @@ describe("isPalindrome", () => {
     expect(isPalindrome("ab")).to.be.false;
   });
 });
+// Check if the string "racecar" is a palindrome.
+const isPalindromeRacecar = isPalindrome("racecar");
+
+// Check if the string "robot" is a palindrome.
+const isPalindromeRobot = isPalindrome("robot");
+
+// Log the results to the console.
+console.log(isPalindromeRacecar); // true
+console.log(isPalindromeRobot); // false
